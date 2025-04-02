@@ -1,0 +1,33 @@
+[0.408s] Invoking command in '/home/rishiraj/ros2_ws/src/my_robot_contoller': PYTHONPATH=/home/rishiraj/ros2_ws/build/my_robot_contoller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rishiraj/ros2_ws/install/my_robot_contoller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_robot_contoller build --build-base /home/rishiraj/ros2_ws/build/my_robot_contoller/build install --record /home/rishiraj/ros2_ws/build/my_robot_contoller/install.log --single-version-externally-managed install_data
+[0.558s] running egg_info
+[0.558s] creating ../../build/my_robot_contoller/my_robot_contoller.egg-info
+[0.558s] writing ../../build/my_robot_contoller/my_robot_contoller.egg-info/PKG-INFO
+[0.558s] writing dependency_links to ../../build/my_robot_contoller/my_robot_contoller.egg-info/dependency_links.txt
+[0.559s] writing entry points to ../../build/my_robot_contoller/my_robot_contoller.egg-info/entry_points.txt
+[0.559s] writing requirements to ../../build/my_robot_contoller/my_robot_contoller.egg-info/requires.txt
+[0.559s] writing top-level names to ../../build/my_robot_contoller/my_robot_contoller.egg-info/top_level.txt
+[0.559s] writing manifest file '../../build/my_robot_contoller/my_robot_contoller.egg-info/SOURCES.txt'
+[0.560s] reading manifest file '../../build/my_robot_contoller/my_robot_contoller.egg-info/SOURCES.txt'
+[0.560s] writing manifest file '../../build/my_robot_contoller/my_robot_contoller.egg-info/SOURCES.txt'
+[0.560s] running build
+[0.560s] running build_py
+[0.560s] creating /home/rishiraj/ros2_ws/build/my_robot_contoller/build
+[0.560s] creating /home/rishiraj/ros2_ws/build/my_robot_contoller/build/lib
+[0.561s] creating /home/rishiraj/ros2_ws/build/my_robot_contoller/build/lib/my_robot_contoller
+[0.561s] copying my_robot_contoller/__init__.py -> /home/rishiraj/ros2_ws/build/my_robot_contoller/build/lib/my_robot_contoller
+[0.561s] running install
+[0.561s] running install_lib
+[0.561s] creating /home/rishiraj/ros2_ws/install/my_robot_contoller/lib/python3.10/site-packages/my_robot_contoller
+[0.561s] copying /home/rishiraj/ros2_ws/build/my_robot_contoller/build/lib/my_robot_contoller/__init__.py -> /home/rishiraj/ros2_ws/install/my_robot_contoller/lib/python3.10/site-packages/my_robot_contoller
+[0.562s] byte-compiling /home/rishiraj/ros2_ws/install/my_robot_contoller/lib/python3.10/site-packages/my_robot_contoller/__init__.py to __init__.cpython-310.pyc
+[0.562s] running install_data
+[0.562s] creating /home/rishiraj/ros2_ws/install/my_robot_contoller/share/ament_index
+[0.562s] creating /home/rishiraj/ros2_ws/install/my_robot_contoller/share/ament_index/resource_index
+[0.562s] creating /home/rishiraj/ros2_ws/install/my_robot_contoller/share/ament_index/resource_index/packages
+[0.562s] copying resource/my_robot_contoller -> /home/rishiraj/ros2_ws/install/my_robot_contoller/share/ament_index/resource_index/packages
+[0.562s] copying package.xml -> /home/rishiraj/ros2_ws/install/my_robot_contoller/share/my_robot_contoller
+[0.562s] running install_egg_info
+[0.563s] Copying ../../build/my_robot_contoller/my_robot_contoller.egg-info to /home/rishiraj/ros2_ws/install/my_robot_contoller/lib/python3.10/site-packages/my_robot_contoller-0.0.0-py3.10.egg-info
+[0.564s] running install_scripts
+[0.580s] writing list of installed files to '/home/rishiraj/ros2_ws/build/my_robot_contoller/install.log'
+[0.598s] Invoked command in '/home/rishiraj/ros2_ws/src/my_robot_contoller' returned '0': PYTHONPATH=/home/rishiraj/ros2_ws/build/my_robot_contoller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rishiraj/ros2_ws/install/my_robot_contoller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_robot_contoller build --build-base /home/rishiraj/ros2_ws/build/my_robot_contoller/build install --record /home/rishiraj/ros2_ws/build/my_robot_contoller/install.log --single-version-externally-managed install_data

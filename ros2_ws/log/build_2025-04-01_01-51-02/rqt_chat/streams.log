@@ -1,0 +1,52 @@
+[0.528s] Invoking command in '/home/rishiraj/ros2_ws/src/rqt_chat': PYTHONPATH=/home/rishiraj/ros2_ws/build/rqt_chat/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rishiraj/ros2_ws/install/rqt_chat/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rqt_chat build --build-base /home/rishiraj/ros2_ws/build/rqt_chat/build install --record /home/rishiraj/ros2_ws/build/rqt_chat/install.log --single-version-externally-managed install_data
+[0.728s] running egg_info
+[0.729s] creating ../../build/rqt_chat/rqt_chat.egg-info
+[0.729s] writing ../../build/rqt_chat/rqt_chat.egg-info/PKG-INFO
+[0.729s] writing dependency_links to ../../build/rqt_chat/rqt_chat.egg-info/dependency_links.txt
+[0.729s] writing entry points to ../../build/rqt_chat/rqt_chat.egg-info/entry_points.txt
+[0.729s] writing requirements to ../../build/rqt_chat/rqt_chat.egg-info/requires.txt
+[0.729s] writing top-level names to ../../build/rqt_chat/rqt_chat.egg-info/top_level.txt
+[0.729s] writing manifest file '../../build/rqt_chat/rqt_chat.egg-info/SOURCES.txt'
+[0.730s] reading manifest file '../../build/rqt_chat/rqt_chat.egg-info/SOURCES.txt'
+[0.730s] adding license file 'LICENSE'
+[0.731s] writing manifest file '../../build/rqt_chat/rqt_chat.egg-info/SOURCES.txt'
+[0.731s] running build
+[0.731s] running build_py
+[0.731s] creating /home/rishiraj/ros2_ws/build/rqt_chat/build
+[0.731s] creating /home/rishiraj/ros2_ws/build/rqt_chat/build/lib
+[0.731s] creating /home/rishiraj/ros2_ws/build/rqt_chat/build/lib/rqt_chat
+[0.731s] copying rqt_chat/chat_widgets.py -> /home/rishiraj/ros2_ws/build/rqt_chat/build/lib/rqt_chat
+[0.731s] copying rqt_chat/chat_widget.py -> /home/rishiraj/ros2_ws/build/rqt_chat/build/lib/rqt_chat
+[0.731s] copying rqt_chat/__init__.py -> /home/rishiraj/ros2_ws/build/rqt_chat/build/lib/rqt_chat
+[0.731s] copying rqt_chat/chat.py -> /home/rishiraj/ros2_ws/build/rqt_chat/build/lib/rqt_chat
+[0.731s] running install
+[0.732s] running install_lib
+[0.732s] creating /home/rishiraj/ros2_ws/install/rqt_chat/lib/python3.10/site-packages/rqt_chat
+[0.732s] copying /home/rishiraj/ros2_ws/build/rqt_chat/build/lib/rqt_chat/chat_widgets.py -> /home/rishiraj/ros2_ws/install/rqt_chat/lib/python3.10/site-packages/rqt_chat
+[0.732s] copying /home/rishiraj/ros2_ws/build/rqt_chat/build/lib/rqt_chat/chat_widget.py -> /home/rishiraj/ros2_ws/install/rqt_chat/lib/python3.10/site-packages/rqt_chat
+[0.733s] copying /home/rishiraj/ros2_ws/build/rqt_chat/build/lib/rqt_chat/__init__.py -> /home/rishiraj/ros2_ws/install/rqt_chat/lib/python3.10/site-packages/rqt_chat
+[0.733s] copying /home/rishiraj/ros2_ws/build/rqt_chat/build/lib/rqt_chat/chat.py -> /home/rishiraj/ros2_ws/install/rqt_chat/lib/python3.10/site-packages/rqt_chat
+[0.733s] byte-compiling /home/rishiraj/ros2_ws/install/rqt_chat/lib/python3.10/site-packages/rqt_chat/chat_widgets.py to chat_widgets.cpython-310.pyc
+[0.735s] byte-compiling /home/rishiraj/ros2_ws/install/rqt_chat/lib/python3.10/site-packages/rqt_chat/chat_widget.py to chat_widget.cpython-310.pyc
+[0.735s] byte-compiling /home/rishiraj/ros2_ws/install/rqt_chat/lib/python3.10/site-packages/rqt_chat/__init__.py to __init__.cpython-310.pyc
+[0.735s] byte-compiling /home/rishiraj/ros2_ws/install/rqt_chat/lib/python3.10/site-packages/rqt_chat/chat.py to chat.cpython-310.pyc
+[0.736s] running install_data
+[0.736s] creating /home/rishiraj/ros2_ws/install/rqt_chat/share/ament_index
+[0.736s] creating /home/rishiraj/ros2_ws/install/rqt_chat/share/ament_index/resource_index
+[0.736s] creating /home/rishiraj/ros2_ws/install/rqt_chat/share/ament_index/resource_index/packages
+[0.736s] copying resource/rqt_chat -> /home/rishiraj/ros2_ws/install/rqt_chat/share/ament_index/resource_index/packages
+[0.736s] copying package.xml -> /home/rishiraj/ros2_ws/install/rqt_chat/share/rqt_chat
+[0.736s] copying plugin.xml -> /home/rishiraj/ros2_ws/install/rqt_chat/share/rqt_chat
+[0.736s] creating /home/rishiraj/ros2_ws/install/rqt_chat/share/rqt_chat/resource
+[0.736s] copying resource/chat.ui -> /home/rishiraj/ros2_ws/install/rqt_chat/share/rqt_chat/resource
+[0.736s] copying resource/send-circle.svg -> /home/rishiraj/ros2_ws/install/rqt_chat/share/rqt_chat/resource
+[0.737s] copying resource/robot.svg -> /home/rishiraj/ros2_ws/install/rqt_chat/share/rqt_chat/resource
+[0.737s] copying resource/face.svg -> /home/rishiraj/ros2_ws/install/rqt_chat/share/rqt_chat/resource
+[0.737s] copying resource/intent.svg -> /home/rishiraj/ros2_ws/install/rqt_chat/share/rqt_chat/resource
+[0.737s] copying resource/spinner.gif -> /home/rishiraj/ros2_ws/install/rqt_chat/share/rqt_chat/resource
+[0.737s] copying resource/waiting-icon.svg -> /home/rishiraj/ros2_ws/install/rqt_chat/share/rqt_chat/resource
+[0.737s] running install_egg_info
+[0.739s] Copying ../../build/rqt_chat/rqt_chat.egg-info to /home/rishiraj/ros2_ws/install/rqt_chat/lib/python3.10/site-packages/rqt_chat-1.4.0-py3.10.egg-info
+[0.739s] running install_scripts
+[0.756s] writing list of installed files to '/home/rishiraj/ros2_ws/build/rqt_chat/install.log'
+[0.775s] Invoked command in '/home/rishiraj/ros2_ws/src/rqt_chat' returned '0': PYTHONPATH=/home/rishiraj/ros2_ws/build/rqt_chat/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rishiraj/ros2_ws/install/rqt_chat/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rqt_chat build --build-base /home/rishiraj/ros2_ws/build/rqt_chat/build install --record /home/rishiraj/ros2_ws/build/rqt_chat/install.log --single-version-externally-managed install_data

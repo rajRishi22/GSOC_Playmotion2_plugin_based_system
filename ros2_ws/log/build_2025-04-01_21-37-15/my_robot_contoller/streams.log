@@ -1,0 +1,19 @@
+[0.835s] Invoking command in '/home/rishiraj/ros2_ws/build/my_robot_contoller': PYTHONPATH=/home/rishiraj/ros2_ws/build/my_robot_contoller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rishiraj/ros2_ws/install/my_robot_contoller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rishiraj/ros2_ws/build/my_robot_contoller/build --no-deps symlink_data
+[1.060s] running develop
+[1.202s] running egg_info
+[1.202s] writing my_robot_contoller.egg-info/PKG-INFO
+[1.202s] writing dependency_links to my_robot_contoller.egg-info/dependency_links.txt
+[1.203s] writing entry points to my_robot_contoller.egg-info/entry_points.txt
+[1.203s] writing requirements to my_robot_contoller.egg-info/requires.txt
+[1.203s] writing top-level names to my_robot_contoller.egg-info/top_level.txt
+[1.204s] reading manifest file 'my_robot_contoller.egg-info/SOURCES.txt'
+[1.205s] writing manifest file 'my_robot_contoller.egg-info/SOURCES.txt'
+[1.206s] running build_ext
+[1.207s] Creating /home/rishiraj/ros2_ws/install/my_robot_contoller/lib/python3.10/site-packages/my-robot-contoller.egg-link (link to .)
+[1.207s] Installing draw_circle script to /home/rishiraj/ros2_ws/install/my_robot_contoller/lib/my_robot_contoller
+[1.207s] Installing pose_subscriber script to /home/rishiraj/ros2_ws/install/my_robot_contoller/lib/my_robot_contoller
+[1.207s] Installing test_node script to /home/rishiraj/ros2_ws/install/my_robot_contoller/lib/my_robot_contoller
+[1.208s] 
+[1.208s] Installed /home/rishiraj/ros2_ws/build/my_robot_contoller
+[1.208s] running symlink_data
+[1.245s] Invoked command in '/home/rishiraj/ros2_ws/build/my_robot_contoller' returned '0': PYTHONPATH=/home/rishiraj/ros2_ws/build/my_robot_contoller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rishiraj/ros2_ws/install/my_robot_contoller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rishiraj/ros2_ws/build/my_robot_contoller/build --no-deps symlink_data
