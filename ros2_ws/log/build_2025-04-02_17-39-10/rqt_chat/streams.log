@@ -1,0 +1,16 @@
+[0.747s] Invoking command in '/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/build/rqt_chat': PYTHONPATH=/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/build/rqt_chat/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/install/rqt_chat/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/build/rqt_chat/build --no-deps symlink_data
+[0.995s] running develop
+[1.134s] running egg_info
+[1.134s] writing rqt_chat.egg-info/PKG-INFO
+[1.134s] writing dependency_links to rqt_chat.egg-info/dependency_links.txt
+[1.135s] writing entry points to rqt_chat.egg-info/entry_points.txt
+[1.135s] writing requirements to rqt_chat.egg-info/requires.txt
+[1.135s] writing top-level names to rqt_chat.egg-info/top_level.txt
+[1.136s] reading manifest file 'rqt_chat.egg-info/SOURCES.txt'
+[1.137s] writing manifest file 'rqt_chat.egg-info/SOURCES.txt'
+[1.139s] running build_ext
+[1.139s] Creating /home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/install/rqt_chat/lib/python3.10/site-packages/rqt-chat.egg-link (link to .)
+[1.140s] 
+[1.140s] Installed /home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/build/rqt_chat
+[1.140s] running symlink_data
+[1.175s] Invoked command in '/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/build/rqt_chat' returned '0': PYTHONPATH=/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/build/rqt_chat/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/install/rqt_chat/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/build/rqt_chat/build --no-deps symlink_data
