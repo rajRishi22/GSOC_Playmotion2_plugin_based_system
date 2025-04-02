@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/build/tiago_arm_trajectory/send_trajectory" "TARGETS" "send_trajectory" "DESTINATION" "lib/tiago_arm_trajectory")

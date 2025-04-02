@@ -72,3 +72,10 @@ entry_points={
 - Open another terminal and source the bashrc script by `source .bashrc`
 - run the script draw_circle to move turtle in a circular path `ros2 run my_robot_contoller draw_circle`.
 - Open a new terminal and run  `rqt_graph` to see the nodes and graph for the process.
+---
+RQT_GRAPH
+![Rqt_graph](./images/Publisher_rqt_graph.png)
+TURTLESIM
+![Turtle_following_circular_path](./images/Publisher_turtle.png)
+Publisher_terminal
+![Terminal](./images/Publisher_terminal.png)

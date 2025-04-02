@@ -1,4 +1,0 @@
-[0.000000] (-) TimerEvent: {}
-[0.000239] (-) JobUnselected: {'identifier': 'my_robot_contoller'}
-[0.000266] (-) JobUnselected: {'identifier': 'rqt_chat'}
-[0.000487] (-) EventReactorShutdown: {}

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rishiraj/ros2_ws/src/tiago_arm_trajectory
+CMAKE_SOURCE_DIR = /home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/src/tiago_arm_trajectory
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rishiraj/ros2_ws/build/tiago_arm_trajectory
+CMAKE_BINARY_DIR = /home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/build/tiago_arm_trajectory
 
 # Utility rule file for tiago_arm_trajectory_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/tiago_arm_trajectory_uninstall.dir/compiler_depend.make
 include CMakeFiles/tiago_arm_trajectory_uninstall.dir/progress.make
 
 CMakeFiles/tiago_arm_trajectory_uninstall:
-	/usr/bin/cmake -P /home/rishiraj/ros2_ws/build/tiago_arm_trajectory/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/build/tiago_arm_trajectory/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 tiago_arm_trajectory_uninstall: CMakeFiles/tiago_arm_trajectory_uninstall
 tiago_arm_trajectory_uninstall: CMakeFiles/tiago_arm_trajectory_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/tiago_arm_trajectory_uninstall.dir/clean:
 .PHONY : CMakeFiles/tiago_arm_trajectory_uninstall.dir/clean
 
 CMakeFiles/tiago_arm_trajectory_uninstall.dir/depend:
-	cd /home/rishiraj/ros2_ws/build/tiago_arm_trajectory && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rishiraj/ros2_ws/src/tiago_arm_trajectory /home/rishiraj/ros2_ws/src/tiago_arm_trajectory /home/rishiraj/ros2_ws/build/tiago_arm_trajectory /home/rishiraj/ros2_ws/build/tiago_arm_trajectory /home/rishiraj/ros2_ws/build/tiago_arm_trajectory/CMakeFiles/tiago_arm_trajectory_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/build/tiago_arm_trajectory && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/src/tiago_arm_trajectory /home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/src/tiago_arm_trajectory /home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/build/tiago_arm_trajectory /home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/build/tiago_arm_trajectory /home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/build/tiago_arm_trajectory/CMakeFiles/tiago_arm_trajectory_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/tiago_arm_trajectory_uninstall.dir/depend
 

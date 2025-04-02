@@ -1,0 +1,21 @@
+[0.803s] Invoking command in '/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/build/my_robot_contoller': PYTHONPATH=/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/build/my_robot_contoller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/install/my_robot_contoller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/build/my_robot_contoller/build --no-deps symlink_data --force
+[1.060s] running develop
+[1.222s] running egg_info
+[1.222s] writing my_robot_contoller.egg-info/PKG-INFO
+[1.222s] writing dependency_links to my_robot_contoller.egg-info/dependency_links.txt
+[1.222s] writing entry points to my_robot_contoller.egg-info/entry_points.txt
+[1.222s] writing requirements to my_robot_contoller.egg-info/requires.txt
+[1.223s] writing top-level names to my_robot_contoller.egg-info/top_level.txt
+[1.223s] reading manifest file 'my_robot_contoller.egg-info/SOURCES.txt'
+[1.223s] writing manifest file 'my_robot_contoller.egg-info/SOURCES.txt'
+[1.225s] running build_ext
+[1.226s] Creating /home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/install/my_robot_contoller/lib/python3.10/site-packages/my-robot-contoller.egg-link (link to .)
+[1.227s] Installing draw_circle script to /home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/install/my_robot_contoller/lib/my_robot_contoller
+[1.227s] Installing pose_subscriber script to /home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/install/my_robot_contoller/lib/my_robot_contoller
+[1.227s] Installing test_node script to /home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/install/my_robot_contoller/lib/my_robot_contoller
+[1.227s] 
+[1.227s] Installed /home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/build/my_robot_contoller
+[1.227s] running symlink_data
+[1.228s] symbolically linking /home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/build/my_robot_contoller/resource/my_robot_contoller -> /home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/install/my_robot_contoller/share/ament_index/resource_index/packages
+[1.228s] symbolically linking /home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/build/my_robot_contoller/package.xml -> /home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/install/my_robot_contoller/share/my_robot_contoller
+[1.263s] Invoked command in '/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/build/my_robot_contoller' returned '0': PYTHONPATH=/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/build/my_robot_contoller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/install/my_robot_contoller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/build/my_robot_contoller/build --no-deps symlink_data --force
