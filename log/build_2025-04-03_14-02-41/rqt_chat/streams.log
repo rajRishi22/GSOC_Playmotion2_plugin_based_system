@@ -1,0 +1,52 @@
+[2.317s] Invoking command in '/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/src/rqt_chat': PYTHONPATH=/home/rishiraj/GSOC_Playmotion2_plugin_based_system/build/rqt_chat/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rishiraj/GSOC_Playmotion2_plugin_based_system/install/rqt_chat/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/rqt_chat build --build-base /home/rishiraj/GSOC_Playmotion2_plugin_based_system/build/rqt_chat/build install --record /home/rishiraj/GSOC_Playmotion2_plugin_based_system/build/rqt_chat/install.log --single-version-externally-managed install_data
+[3.083s] running egg_info
+[3.083s] creating ../../../build/rqt_chat/rqt_chat.egg-info
+[3.083s] writing ../../../build/rqt_chat/rqt_chat.egg-info/PKG-INFO
+[3.084s] writing dependency_links to ../../../build/rqt_chat/rqt_chat.egg-info/dependency_links.txt
+[3.084s] writing entry points to ../../../build/rqt_chat/rqt_chat.egg-info/entry_points.txt
+[3.084s] writing requirements to ../../../build/rqt_chat/rqt_chat.egg-info/requires.txt
+[3.086s] writing top-level names to ../../../build/rqt_chat/rqt_chat.egg-info/top_level.txt
+[3.087s] writing manifest file '../../../build/rqt_chat/rqt_chat.egg-info/SOURCES.txt'
+[3.090s] reading manifest file '../../../build/rqt_chat/rqt_chat.egg-info/SOURCES.txt'
+[3.091s] adding license file 'LICENSE'
+[3.092s] writing manifest file '../../../build/rqt_chat/rqt_chat.egg-info/SOURCES.txt'
+[3.092s] running build
+[3.092s] running build_py
+[3.093s] creating /home/rishiraj/GSOC_Playmotion2_plugin_based_system/build/rqt_chat/build
+[3.093s] creating /home/rishiraj/GSOC_Playmotion2_plugin_based_system/build/rqt_chat/build/lib
+[3.093s] creating /home/rishiraj/GSOC_Playmotion2_plugin_based_system/build/rqt_chat/build/lib/rqt_chat
+[3.093s] copying rqt_chat/chat_widgets.py -> /home/rishiraj/GSOC_Playmotion2_plugin_based_system/build/rqt_chat/build/lib/rqt_chat
+[3.094s] copying rqt_chat/chat_widget.py -> /home/rishiraj/GSOC_Playmotion2_plugin_based_system/build/rqt_chat/build/lib/rqt_chat
+[3.094s] copying rqt_chat/__init__.py -> /home/rishiraj/GSOC_Playmotion2_plugin_based_system/build/rqt_chat/build/lib/rqt_chat
+[3.094s] copying rqt_chat/chat.py -> /home/rishiraj/GSOC_Playmotion2_plugin_based_system/build/rqt_chat/build/lib/rqt_chat
+[3.097s] running install
+[3.097s] running install_lib
+[3.098s] creating /home/rishiraj/GSOC_Playmotion2_plugin_based_system/install/rqt_chat/lib/python3.10/site-packages/rqt_chat
+[3.098s] copying /home/rishiraj/GSOC_Playmotion2_plugin_based_system/build/rqt_chat/build/lib/rqt_chat/chat_widgets.py -> /home/rishiraj/GSOC_Playmotion2_plugin_based_system/install/rqt_chat/lib/python3.10/site-packages/rqt_chat
+[3.098s] copying /home/rishiraj/GSOC_Playmotion2_plugin_based_system/build/rqt_chat/build/lib/rqt_chat/chat_widget.py -> /home/rishiraj/GSOC_Playmotion2_plugin_based_system/install/rqt_chat/lib/python3.10/site-packages/rqt_chat
+[3.099s] copying /home/rishiraj/GSOC_Playmotion2_plugin_based_system/build/rqt_chat/build/lib/rqt_chat/__init__.py -> /home/rishiraj/GSOC_Playmotion2_plugin_based_system/install/rqt_chat/lib/python3.10/site-packages/rqt_chat
+[3.099s] copying /home/rishiraj/GSOC_Playmotion2_plugin_based_system/build/rqt_chat/build/lib/rqt_chat/chat.py -> /home/rishiraj/GSOC_Playmotion2_plugin_based_system/install/rqt_chat/lib/python3.10/site-packages/rqt_chat
+[3.100s] byte-compiling /home/rishiraj/GSOC_Playmotion2_plugin_based_system/install/rqt_chat/lib/python3.10/site-packages/rqt_chat/chat_widgets.py to chat_widgets.cpython-310.pyc
+[3.105s] byte-compiling /home/rishiraj/GSOC_Playmotion2_plugin_based_system/install/rqt_chat/lib/python3.10/site-packages/rqt_chat/chat_widget.py to chat_widget.cpython-310.pyc
+[3.108s] byte-compiling /home/rishiraj/GSOC_Playmotion2_plugin_based_system/install/rqt_chat/lib/python3.10/site-packages/rqt_chat/__init__.py to __init__.cpython-310.pyc
+[3.109s] byte-compiling /home/rishiraj/GSOC_Playmotion2_plugin_based_system/install/rqt_chat/lib/python3.10/site-packages/rqt_chat/chat.py to chat.cpython-310.pyc
+[3.109s] running install_data
+[3.109s] creating /home/rishiraj/GSOC_Playmotion2_plugin_based_system/install/rqt_chat/share/ament_index
+[3.109s] creating /home/rishiraj/GSOC_Playmotion2_plugin_based_system/install/rqt_chat/share/ament_index/resource_index
+[3.110s] creating /home/rishiraj/GSOC_Playmotion2_plugin_based_system/install/rqt_chat/share/ament_index/resource_index/packages
+[3.110s] copying resource/rqt_chat -> /home/rishiraj/GSOC_Playmotion2_plugin_based_system/install/rqt_chat/share/ament_index/resource_index/packages
+[3.110s] copying package.xml -> /home/rishiraj/GSOC_Playmotion2_plugin_based_system/install/rqt_chat/share/rqt_chat
+[3.110s] copying plugin.xml -> /home/rishiraj/GSOC_Playmotion2_plugin_based_system/install/rqt_chat/share/rqt_chat
+[3.111s] creating /home/rishiraj/GSOC_Playmotion2_plugin_based_system/install/rqt_chat/share/rqt_chat/resource
+[3.111s] copying resource/chat.ui -> /home/rishiraj/GSOC_Playmotion2_plugin_based_system/install/rqt_chat/share/rqt_chat/resource
+[3.111s] copying resource/send-circle.svg -> /home/rishiraj/GSOC_Playmotion2_plugin_based_system/install/rqt_chat/share/rqt_chat/resource
+[3.112s] copying resource/robot.svg -> /home/rishiraj/GSOC_Playmotion2_plugin_based_system/install/rqt_chat/share/rqt_chat/resource
+[3.113s] copying resource/face.svg -> /home/rishiraj/GSOC_Playmotion2_plugin_based_system/install/rqt_chat/share/rqt_chat/resource
+[3.113s] copying resource/intent.svg -> /home/rishiraj/GSOC_Playmotion2_plugin_based_system/install/rqt_chat/share/rqt_chat/resource
+[3.113s] copying resource/spinner.gif -> /home/rishiraj/GSOC_Playmotion2_plugin_based_system/install/rqt_chat/share/rqt_chat/resource
+[3.114s] copying resource/waiting-icon.svg -> /home/rishiraj/GSOC_Playmotion2_plugin_based_system/install/rqt_chat/share/rqt_chat/resource
+[3.114s] running install_egg_info
+[3.120s] Copying ../../../build/rqt_chat/rqt_chat.egg-info to /home/rishiraj/GSOC_Playmotion2_plugin_based_system/install/rqt_chat/lib/python3.10/site-packages/rqt_chat-1.4.0-py3.10.egg-info
+[3.122s] running install_scripts
+[3.181s] writing list of installed files to '/home/rishiraj/GSOC_Playmotion2_plugin_based_system/build/rqt_chat/install.log'
+[3.248s] Invoked command in '/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/src/rqt_chat' returned '0': PYTHONPATH=/home/rishiraj/GSOC_Playmotion2_plugin_based_system/build/rqt_chat/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rishiraj/GSOC_Playmotion2_plugin_based_system/install/rqt_chat/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/rqt_chat build --build-base /home/rishiraj/GSOC_Playmotion2_plugin_based_system/build/rqt_chat/build install --record /home/rishiraj/GSOC_Playmotion2_plugin_based_system/build/rqt_chat/install.log --single-version-externally-managed install_data

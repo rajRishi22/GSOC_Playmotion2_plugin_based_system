@@ -1,0 +1,45 @@
+[2.320s] Invoking command in '/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/src/my_robot_contoller': PYTHONPATH=/home/rishiraj/GSOC_Playmotion2_plugin_based_system/build/my_robot_contoller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rishiraj/GSOC_Playmotion2_plugin_based_system/install/my_robot_contoller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/my_robot_contoller build --build-base /home/rishiraj/GSOC_Playmotion2_plugin_based_system/build/my_robot_contoller/build install --record /home/rishiraj/GSOC_Playmotion2_plugin_based_system/build/my_robot_contoller/install.log --single-version-externally-managed install_data
+[2.995s] running egg_info
+[2.996s] creating ../../../build/my_robot_contoller/my_robot_contoller.egg-info
+[2.996s] writing ../../../build/my_robot_contoller/my_robot_contoller.egg-info/PKG-INFO
+[2.997s] writing dependency_links to ../../../build/my_robot_contoller/my_robot_contoller.egg-info/dependency_links.txt
+[2.999s] writing entry points to ../../../build/my_robot_contoller/my_robot_contoller.egg-info/entry_points.txt
+[2.999s] writing requirements to ../../../build/my_robot_contoller/my_robot_contoller.egg-info/requires.txt
+[2.999s] writing top-level names to ../../../build/my_robot_contoller/my_robot_contoller.egg-info/top_level.txt
+[2.999s] writing manifest file '../../../build/my_robot_contoller/my_robot_contoller.egg-info/SOURCES.txt'
+[3.003s] reading manifest file '../../../build/my_robot_contoller/my_robot_contoller.egg-info/SOURCES.txt'
+[3.005s] writing manifest file '../../../build/my_robot_contoller/my_robot_contoller.egg-info/SOURCES.txt'
+[3.006s] running build
+[3.007s] running build_py
+[3.007s] creating /home/rishiraj/GSOC_Playmotion2_plugin_based_system/build/my_robot_contoller/build
+[3.008s] creating /home/rishiraj/GSOC_Playmotion2_plugin_based_system/build/my_robot_contoller/build/lib
+[3.008s] creating /home/rishiraj/GSOC_Playmotion2_plugin_based_system/build/my_robot_contoller/build/lib/my_robot_contoller
+[3.008s] copying my_robot_contoller/my_first_node.py -> /home/rishiraj/GSOC_Playmotion2_plugin_based_system/build/my_robot_contoller/build/lib/my_robot_contoller
+[3.017s] copying my_robot_contoller/draw_circle.py -> /home/rishiraj/GSOC_Playmotion2_plugin_based_system/build/my_robot_contoller/build/lib/my_robot_contoller
+[3.017s] copying my_robot_contoller/pose_subscriber.py -> /home/rishiraj/GSOC_Playmotion2_plugin_based_system/build/my_robot_contoller/build/lib/my_robot_contoller
+[3.018s] copying my_robot_contoller/__init__.py -> /home/rishiraj/GSOC_Playmotion2_plugin_based_system/build/my_robot_contoller/build/lib/my_robot_contoller
+[3.018s] running install
+[3.019s] running install_lib
+[3.020s] creating /home/rishiraj/GSOC_Playmotion2_plugin_based_system/install/my_robot_contoller/lib/python3.10/site-packages/my_robot_contoller
+[3.021s] copying /home/rishiraj/GSOC_Playmotion2_plugin_based_system/build/my_robot_contoller/build/lib/my_robot_contoller/my_first_node.py -> /home/rishiraj/GSOC_Playmotion2_plugin_based_system/install/my_robot_contoller/lib/python3.10/site-packages/my_robot_contoller
+[3.021s] copying /home/rishiraj/GSOC_Playmotion2_plugin_based_system/build/my_robot_contoller/build/lib/my_robot_contoller/draw_circle.py -> /home/rishiraj/GSOC_Playmotion2_plugin_based_system/install/my_robot_contoller/lib/python3.10/site-packages/my_robot_contoller
+[3.021s] copying /home/rishiraj/GSOC_Playmotion2_plugin_based_system/build/my_robot_contoller/build/lib/my_robot_contoller/pose_subscriber.py -> /home/rishiraj/GSOC_Playmotion2_plugin_based_system/install/my_robot_contoller/lib/python3.10/site-packages/my_robot_contoller
+[3.021s] copying /home/rishiraj/GSOC_Playmotion2_plugin_based_system/build/my_robot_contoller/build/lib/my_robot_contoller/__init__.py -> /home/rishiraj/GSOC_Playmotion2_plugin_based_system/install/my_robot_contoller/lib/python3.10/site-packages/my_robot_contoller
+[3.022s] byte-compiling /home/rishiraj/GSOC_Playmotion2_plugin_based_system/install/my_robot_contoller/lib/python3.10/site-packages/my_robot_contoller/my_first_node.py to my_first_node.cpython-310.pyc
+[3.023s] byte-compiling /home/rishiraj/GSOC_Playmotion2_plugin_based_system/install/my_robot_contoller/lib/python3.10/site-packages/my_robot_contoller/draw_circle.py to draw_circle.cpython-310.pyc
+[3.024s] byte-compiling /home/rishiraj/GSOC_Playmotion2_plugin_based_system/install/my_robot_contoller/lib/python3.10/site-packages/my_robot_contoller/pose_subscriber.py to pose_subscriber.cpython-310.pyc
+[3.024s] byte-compiling /home/rishiraj/GSOC_Playmotion2_plugin_based_system/install/my_robot_contoller/lib/python3.10/site-packages/my_robot_contoller/__init__.py to __init__.cpython-310.pyc
+[3.025s] running install_data
+[3.025s] creating /home/rishiraj/GSOC_Playmotion2_plugin_based_system/install/my_robot_contoller/share/ament_index
+[3.025s] creating /home/rishiraj/GSOC_Playmotion2_plugin_based_system/install/my_robot_contoller/share/ament_index/resource_index
+[3.025s] creating /home/rishiraj/GSOC_Playmotion2_plugin_based_system/install/my_robot_contoller/share/ament_index/resource_index/packages
+[3.026s] copying resource/my_robot_contoller -> /home/rishiraj/GSOC_Playmotion2_plugin_based_system/install/my_robot_contoller/share/ament_index/resource_index/packages
+[3.026s] copying package.xml -> /home/rishiraj/GSOC_Playmotion2_plugin_based_system/install/my_robot_contoller/share/my_robot_contoller
+[3.026s] running install_egg_info
+[3.030s] Copying ../../../build/my_robot_contoller/my_robot_contoller.egg-info to /home/rishiraj/GSOC_Playmotion2_plugin_based_system/install/my_robot_contoller/lib/python3.10/site-packages/my_robot_contoller-0.0.0-py3.10.egg-info
+[3.032s] running install_scripts
+[3.085s] Installing draw_circle script to /home/rishiraj/GSOC_Playmotion2_plugin_based_system/install/my_robot_contoller/lib/my_robot_contoller
+[3.085s] Installing pose_subscriber script to /home/rishiraj/GSOC_Playmotion2_plugin_based_system/install/my_robot_contoller/lib/my_robot_contoller
+[3.086s] Installing test_node script to /home/rishiraj/GSOC_Playmotion2_plugin_based_system/install/my_robot_contoller/lib/my_robot_contoller
+[3.087s] writing list of installed files to '/home/rishiraj/GSOC_Playmotion2_plugin_based_system/build/my_robot_contoller/install.log'
+[3.152s] Invoked command in '/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/src/my_robot_contoller' returned '0': PYTHONPATH=/home/rishiraj/GSOC_Playmotion2_plugin_based_system/build/my_robot_contoller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rishiraj/GSOC_Playmotion2_plugin_based_system/install/my_robot_contoller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/my_robot_contoller build --build-base /home/rishiraj/GSOC_Playmotion2_plugin_based_system/build/my_robot_contoller/build install --record /home/rishiraj/GSOC_Playmotion2_plugin_based_system/build/my_robot_contoller/install.log --single-version-externally-managed install_data

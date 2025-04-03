@@ -1,0 +1,39 @@
+running develop
+Removing /home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/install/rqt_chat/lib/python3.10/site-packages/rqt-chat.egg-link (link to .)
+running egg_info
+writing ../../build/rqt_chat/rqt_chat.egg-info/PKG-INFO
+writing dependency_links to ../../build/rqt_chat/rqt_chat.egg-info/dependency_links.txt
+writing entry points to ../../build/rqt_chat/rqt_chat.egg-info/entry_points.txt
+writing requirements to ../../build/rqt_chat/rqt_chat.egg-info/requires.txt
+writing top-level names to ../../build/rqt_chat/rqt_chat.egg-info/top_level.txt
+reading manifest file '../../build/rqt_chat/rqt_chat.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/rqt_chat/rqt_chat.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+creating /home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/install/rqt_chat/lib/python3.10/site-packages/rqt_chat
+copying /home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/build/rqt_chat/build/lib/rqt_chat/chat_widgets.py -> /home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/install/rqt_chat/lib/python3.10/site-packages/rqt_chat
+copying /home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/build/rqt_chat/build/lib/rqt_chat/chat_widget.py -> /home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/install/rqt_chat/lib/python3.10/site-packages/rqt_chat
+copying /home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/build/rqt_chat/build/lib/rqt_chat/__init__.py -> /home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/install/rqt_chat/lib/python3.10/site-packages/rqt_chat
+copying /home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/build/rqt_chat/build/lib/rqt_chat/chat.py -> /home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/install/rqt_chat/lib/python3.10/site-packages/rqt_chat
+byte-compiling /home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/install/rqt_chat/lib/python3.10/site-packages/rqt_chat/chat_widgets.py to chat_widgets.cpython-310.pyc
+byte-compiling /home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/install/rqt_chat/lib/python3.10/site-packages/rqt_chat/chat_widget.py to chat_widget.cpython-310.pyc
+byte-compiling /home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/install/rqt_chat/lib/python3.10/site-packages/rqt_chat/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/install/rqt_chat/lib/python3.10/site-packages/rqt_chat/chat.py to chat.cpython-310.pyc
+running install_data
+copying resource/rqt_chat -> /home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/install/rqt_chat/share/ament_index/resource_index/packages
+copying package.xml -> /home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/install/rqt_chat/share/rqt_chat
+copying plugin.xml -> /home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/install/rqt_chat/share/rqt_chat
+copying resource/chat.ui -> /home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/install/rqt_chat/share/rqt_chat/resource
+copying resource/send-circle.svg -> /home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/install/rqt_chat/share/rqt_chat/resource
+copying resource/robot.svg -> /home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/install/rqt_chat/share/rqt_chat/resource
+copying resource/face.svg -> /home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/install/rqt_chat/share/rqt_chat/resource
+copying resource/intent.svg -> /home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/install/rqt_chat/share/rqt_chat/resource
+copying resource/spinner.gif -> /home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/install/rqt_chat/share/rqt_chat/resource
+copying resource/waiting-icon.svg -> /home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/install/rqt_chat/share/rqt_chat/resource
+running install_egg_info
+Copying ../../build/rqt_chat/rqt_chat.egg-info to /home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/install/rqt_chat/lib/python3.10/site-packages/rqt_chat-1.4.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/build/rqt_chat/install.log'

@@ -1,0 +1,271 @@
+[0.077s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.077s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f6f04056da0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f6f04056830>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f6f04056830>>)
+[0.202s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.202s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.202s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.202s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.202s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.202s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.202s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_contoller) by extensions ['ignore', 'ignore_ament_install']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_contoller) by extension 'ignore'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_contoller) by extension 'ignore_ament_install'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_contoller) by extensions ['colcon_pkg']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_contoller) by extension 'colcon_pkg'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_contoller) by extensions ['colcon_meta']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_contoller) by extension 'colcon_meta'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_contoller) by extensions ['ros']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_contoller) by extension 'ros'
+[0.213s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_robot_contoller' with type 'ros.ament_python' and name 'my_robot_contoller'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros4hri) by extensions ['ignore', 'ignore_ament_install']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros4hri) by extension 'ignore'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros4hri) by extension 'ignore_ament_install'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros4hri) by extensions ['colcon_pkg']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros4hri) by extension 'colcon_pkg'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros4hri) by extensions ['colcon_meta']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros4hri) by extension 'colcon_meta'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros4hri) by extensions ['ros']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros4hri) by extension 'ros'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros4hri) by extensions ['cmake', 'python']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros4hri) by extension 'cmake'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros4hri) by extension 'python'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros4hri) by extensions ['python_setup_py']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros4hri) by extension 'python_setup_py'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros4hri/doc) by extensions ['ignore', 'ignore_ament_install']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros4hri/doc) by extension 'ignore'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros4hri/doc) by extension 'ignore_ament_install'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros4hri/doc) by extensions ['colcon_pkg']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros4hri/doc) by extension 'colcon_pkg'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros4hri/doc) by extensions ['colcon_meta']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros4hri/doc) by extension 'colcon_meta'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros4hri/doc) by extensions ['ros']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros4hri/doc) by extension 'ros'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros4hri/doc) by extensions ['cmake', 'python']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros4hri/doc) by extension 'cmake'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros4hri/doc) by extension 'python'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros4hri/doc) by extensions ['python_setup_py']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros4hri/doc) by extension 'python_setup_py'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/rqt_chat) by extensions ['ignore', 'ignore_ament_install']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/rqt_chat) by extension 'ignore'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/rqt_chat) by extension 'ignore_ament_install'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/rqt_chat) by extensions ['colcon_pkg']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/rqt_chat) by extension 'colcon_pkg'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/rqt_chat) by extensions ['colcon_meta']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/rqt_chat) by extension 'colcon_meta'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/rqt_chat) by extensions ['ros']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/rqt_chat) by extension 'ros'
+[0.215s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rqt_chat' with type 'ros.ament_python' and name 'rqt_chat'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/tiago_arm_trajectory) by extensions ['ignore', 'ignore_ament_install']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/tiago_arm_trajectory) by extension 'ignore'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/tiago_arm_trajectory) by extension 'ignore_ament_install'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/tiago_arm_trajectory) by extensions ['colcon_pkg']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/tiago_arm_trajectory) by extension 'colcon_pkg'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/tiago_arm_trajectory) by extensions ['colcon_meta']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/tiago_arm_trajectory) by extension 'colcon_meta'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/tiago_arm_trajectory) by extensions ['ros']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/tiago_arm_trajectory) by extension 'ros'
+[0.216s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tiago_arm_trajectory' with type 'ros.ament_cmake' and name 'tiago_arm_trajectory'
+[0.216s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.216s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.216s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.216s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.216s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.239s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.239s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.241s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/install
+[0.242s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 38 installed packages in /home/rishiraj/tiago_public_ws/install
+[0.242s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/rishiraj/ros2_ws/install
+[0.244s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 432 installed packages in /opt/ros/humble
+[0.246s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'my_robot_contoller' build argument 'cmake_args' from command line to 'None'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'my_robot_contoller' build argument 'cmake_target' from command line to 'None'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'my_robot_contoller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'my_robot_contoller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'my_robot_contoller' build argument 'cmake_clean_first' from command line to 'False'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'my_robot_contoller' build argument 'cmake_force_configure' from command line to 'False'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'my_robot_contoller' build argument 'ament_cmake_args' from command line to 'None'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'my_robot_contoller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'my_robot_contoller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.282s] DEBUG:colcon.colcon_core.verb:Building package 'my_robot_contoller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/build/my_robot_contoller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/install/my_robot_contoller', 'merge_install': False, 'path': '/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/src/my_robot_contoller', 'symlink_install': False, 'test_result_base': None}
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'rqt_chat' build argument 'cmake_args' from command line to 'None'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'rqt_chat' build argument 'cmake_target' from command line to 'None'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'rqt_chat' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'rqt_chat' build argument 'cmake_clean_cache' from command line to 'False'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'rqt_chat' build argument 'cmake_clean_first' from command line to 'False'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'rqt_chat' build argument 'cmake_force_configure' from command line to 'False'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'rqt_chat' build argument 'ament_cmake_args' from command line to 'None'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'rqt_chat' build argument 'catkin_cmake_args' from command line to 'None'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'rqt_chat' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.282s] DEBUG:colcon.colcon_core.verb:Building package 'rqt_chat' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/build/rqt_chat', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/install/rqt_chat', 'merge_install': False, 'path': '/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/src/rqt_chat', 'symlink_install': False, 'test_result_base': None}
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'tiago_arm_trajectory' build argument 'cmake_args' from command line to 'None'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'tiago_arm_trajectory' build argument 'cmake_target' from command line to 'None'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'tiago_arm_trajectory' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'tiago_arm_trajectory' build argument 'cmake_clean_cache' from command line to 'False'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'tiago_arm_trajectory' build argument 'cmake_clean_first' from command line to 'False'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'tiago_arm_trajectory' build argument 'cmake_force_configure' from command line to 'False'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'tiago_arm_trajectory' build argument 'ament_cmake_args' from command line to 'None'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'tiago_arm_trajectory' build argument 'catkin_cmake_args' from command line to 'None'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'tiago_arm_trajectory' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.283s] DEBUG:colcon.colcon_core.verb:Building package 'tiago_arm_trajectory' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/build/tiago_arm_trajectory', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/install/tiago_arm_trajectory', 'merge_install': False, 'path': '/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/src/tiago_arm_trajectory', 'symlink_install': False, 'test_result_base': None}
+[0.283s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.284s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.284s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/src/my_robot_contoller' with build type 'ament_python'
+[0.284s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_contoller', 'ament_prefix_path')
+[0.286s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.286s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/install/my_robot_contoller/share/my_robot_contoller/hook/ament_prefix_path.ps1'
+[0.287s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/install/my_robot_contoller/share/my_robot_contoller/hook/ament_prefix_path.dsv'
+[0.287s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/install/my_robot_contoller/share/my_robot_contoller/hook/ament_prefix_path.sh'
+[0.287s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.288s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.293s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/src/rqt_chat' with build type 'ament_python'
+[0.293s] Level 1:colcon.colcon_core.shell:create_environment_hook('rqt_chat', 'ament_prefix_path')
+[0.293s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/install/rqt_chat/share/rqt_chat/hook/ament_prefix_path.ps1'
+[0.294s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/install/rqt_chat/share/rqt_chat/hook/ament_prefix_path.dsv'
+[0.294s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/install/rqt_chat/share/rqt_chat/hook/ament_prefix_path.sh'
+[0.294s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.294s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.302s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/src/tiago_arm_trajectory' with build type 'ament_cmake'
+[0.302s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/src/tiago_arm_trajectory'
+[0.302s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.302s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.525s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/src/my_robot_contoller'
+[0.525s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.525s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.736s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/src/rqt_chat'
+[0.736s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.737s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.745s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/build/tiago_arm_trajectory': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/install/rqt_chat:/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/install/my_robot_contoller:/home/rishiraj/ros2_ws/install/rqt_chat:/home/rishiraj/ros2_ws/install/my_robot_contoller:/home/rishiraj/tiago_public_ws/install/launch_pal:/opt/ros/humble /usr/bin/cmake --build /home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/build/tiago_arm_trajectory -- -j8 -l8
+[0.804s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/build/tiago_arm_trajectory' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/install/rqt_chat:/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/install/my_robot_contoller:/home/rishiraj/ros2_ws/install/rqt_chat:/home/rishiraj/ros2_ws/install/my_robot_contoller:/home/rishiraj/tiago_public_ws/install/launch_pal:/opt/ros/humble /usr/bin/cmake --build /home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/build/tiago_arm_trajectory -- -j8 -l8
+[0.814s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/build/tiago_arm_trajectory': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/install/rqt_chat:/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/install/my_robot_contoller:/home/rishiraj/ros2_ws/install/rqt_chat:/home/rishiraj/ros2_ws/install/my_robot_contoller:/home/rishiraj/tiago_public_ws/install/launch_pal:/opt/ros/humble /usr/bin/cmake --install /home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/build/tiago_arm_trajectory
+[0.833s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tiago_arm_trajectory)
+[0.833s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/build/tiago_arm_trajectory' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/install/rqt_chat:/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/install/my_robot_contoller:/home/rishiraj/ros2_ws/install/rqt_chat:/home/rishiraj/ros2_ws/install/my_robot_contoller:/home/rishiraj/tiago_public_ws/install/launch_pal:/opt/ros/humble /usr/bin/cmake --install /home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/build/tiago_arm_trajectory
+[0.835s] Level 1:colcon.colcon_core.environment:checking '/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/install/tiago_arm_trajectory' for CMake module files
+[0.835s] Level 1:colcon.colcon_core.environment:checking '/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/install/tiago_arm_trajectory' for CMake config files
+[0.836s] Level 1:colcon.colcon_core.shell:create_environment_hook('tiago_arm_trajectory', 'cmake_prefix_path')
+[0.836s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/install/tiago_arm_trajectory/share/tiago_arm_trajectory/hook/cmake_prefix_path.ps1'
+[0.836s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/install/tiago_arm_trajectory/share/tiago_arm_trajectory/hook/cmake_prefix_path.dsv'
+[0.837s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/install/tiago_arm_trajectory/share/tiago_arm_trajectory/hook/cmake_prefix_path.sh'
+[0.837s] Level 1:colcon.colcon_core.environment:checking '/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/install/tiago_arm_trajectory/lib'
+[0.838s] Level 1:colcon.colcon_core.environment:checking '/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/install/tiago_arm_trajectory/bin'
+[0.838s] Level 1:colcon.colcon_core.environment:checking '/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/install/tiago_arm_trajectory/lib/pkgconfig/tiago_arm_trajectory.pc'
+[0.838s] Level 1:colcon.colcon_core.environment:checking '/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/install/tiago_arm_trajectory/lib/python3.10/site-packages'
+[0.838s] Level 1:colcon.colcon_core.environment:checking '/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/install/tiago_arm_trajectory/bin'
+[0.838s] INFO:colcon.colcon_core.shell:Creating package script '/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/install/tiago_arm_trajectory/share/tiago_arm_trajectory/package.ps1'
+[0.839s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/install/tiago_arm_trajectory/share/tiago_arm_trajectory/package.dsv'
+[0.840s] INFO:colcon.colcon_core.shell:Creating package script '/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/install/tiago_arm_trajectory/share/tiago_arm_trajectory/package.sh'
+[0.840s] INFO:colcon.colcon_core.shell:Creating package script '/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/install/tiago_arm_trajectory/share/tiago_arm_trajectory/package.bash'
+[0.841s] INFO:colcon.colcon_core.shell:Creating package script '/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/install/tiago_arm_trajectory/share/tiago_arm_trajectory/package.zsh'
+[0.841s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/install/tiago_arm_trajectory/share/colcon-core/packages/tiago_arm_trajectory)
+[0.842s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tiago_arm_trajectory)
+[0.842s] Level 1:colcon.colcon_core.environment:checking '/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/install/tiago_arm_trajectory' for CMake module files
+[0.843s] Level 1:colcon.colcon_core.environment:checking '/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/install/tiago_arm_trajectory' for CMake config files
+[0.843s] Level 1:colcon.colcon_core.shell:create_environment_hook('tiago_arm_trajectory', 'cmake_prefix_path')
+[0.843s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/install/tiago_arm_trajectory/share/tiago_arm_trajectory/hook/cmake_prefix_path.ps1'
+[0.843s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/install/tiago_arm_trajectory/share/tiago_arm_trajectory/hook/cmake_prefix_path.dsv'
+[0.844s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/install/tiago_arm_trajectory/share/tiago_arm_trajectory/hook/cmake_prefix_path.sh'
+[0.844s] Level 1:colcon.colcon_core.environment:checking '/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/install/tiago_arm_trajectory/lib'
+[0.844s] Level 1:colcon.colcon_core.environment:checking '/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/install/tiago_arm_trajectory/bin'
+[0.844s] Level 1:colcon.colcon_core.environment:checking '/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/install/tiago_arm_trajectory/lib/pkgconfig/tiago_arm_trajectory.pc'
+[0.844s] Level 1:colcon.colcon_core.environment:checking '/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/install/tiago_arm_trajectory/lib/python3.10/site-packages'
+[0.844s] Level 1:colcon.colcon_core.environment:checking '/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/install/tiago_arm_trajectory/bin'
+[0.845s] INFO:colcon.colcon_core.shell:Creating package script '/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/install/tiago_arm_trajectory/share/tiago_arm_trajectory/package.ps1'
+[0.845s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/install/tiago_arm_trajectory/share/tiago_arm_trajectory/package.dsv'
+[0.845s] INFO:colcon.colcon_core.shell:Creating package script '/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/install/tiago_arm_trajectory/share/tiago_arm_trajectory/package.sh'
+[0.846s] INFO:colcon.colcon_core.shell:Creating package script '/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/install/tiago_arm_trajectory/share/tiago_arm_trajectory/package.bash'
+[0.846s] INFO:colcon.colcon_core.shell:Creating package script '/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/install/tiago_arm_trajectory/share/tiago_arm_trajectory/package.zsh'
+[0.846s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/install/tiago_arm_trajectory/share/colcon-core/packages/tiago_arm_trajectory)
+[1.073s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/src/my_robot_contoller': PYTHONPATH=/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/build/my_robot_contoller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/install/my_robot_contoller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_robot_contoller build --build-base /home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/build/my_robot_contoller/build install --record /home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/build/my_robot_contoller/install.log --single-version-externally-managed install_data
+[1.074s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/src/rqt_chat': PYTHONPATH=/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/build/rqt_chat/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/install/rqt_chat/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rqt_chat build --build-base /home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/build/rqt_chat/build install --record /home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/build/rqt_chat/install.log --single-version-externally-managed install_data
+[1.322s] Level 1:colcon.colcon_core.environment:checking '/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/install/rqt_chat' for CMake module files
+[1.322s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/src/rqt_chat' returned '0': PYTHONPATH=/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/build/rqt_chat/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/install/rqt_chat/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rqt_chat build --build-base /home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/build/rqt_chat/build install --record /home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/build/rqt_chat/install.log --single-version-externally-managed install_data
+[1.323s] Level 1:colcon.colcon_core.environment:checking '/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/install/rqt_chat' for CMake config files
+[1.323s] Level 1:colcon.colcon_core.environment:checking '/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/install/rqt_chat/lib'
+[1.323s] Level 1:colcon.colcon_core.environment:checking '/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/install/rqt_chat/bin'
+[1.323s] Level 1:colcon.colcon_core.environment:checking '/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/install/rqt_chat/lib/pkgconfig/rqt_chat.pc'
+[1.323s] Level 1:colcon.colcon_core.environment:checking '/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/install/rqt_chat/lib/python3.10/site-packages'
+[1.323s] Level 1:colcon.colcon_core.shell:create_environment_hook('rqt_chat', 'pythonpath')
+[1.324s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/install/rqt_chat/share/rqt_chat/hook/pythonpath.ps1'
+[1.324s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/install/rqt_chat/share/rqt_chat/hook/pythonpath.dsv'
+[1.324s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/install/rqt_chat/share/rqt_chat/hook/pythonpath.sh'
+[1.325s] Level 1:colcon.colcon_core.environment:checking '/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/install/rqt_chat/bin'
+[1.325s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rqt_chat)
+[1.325s] INFO:colcon.colcon_core.shell:Creating package script '/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/install/rqt_chat/share/rqt_chat/package.ps1'
+[1.325s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/install/rqt_chat/share/rqt_chat/package.dsv'
+[1.326s] INFO:colcon.colcon_core.shell:Creating package script '/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/install/rqt_chat/share/rqt_chat/package.sh'
+[1.326s] INFO:colcon.colcon_core.shell:Creating package script '/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/install/rqt_chat/share/rqt_chat/package.bash'
+[1.326s] INFO:colcon.colcon_core.shell:Creating package script '/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/install/rqt_chat/share/rqt_chat/package.zsh'
+[1.326s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/install/rqt_chat/share/colcon-core/packages/rqt_chat)
+[1.327s] Level 1:colcon.colcon_core.environment:checking '/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/install/my_robot_contoller' for CMake module files
+[1.328s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/src/my_robot_contoller' returned '0': PYTHONPATH=/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/build/my_robot_contoller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/install/my_robot_contoller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_robot_contoller build --build-base /home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/build/my_robot_contoller/build install --record /home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/build/my_robot_contoller/install.log --single-version-externally-managed install_data
+[1.328s] Level 1:colcon.colcon_core.environment:checking '/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/install/my_robot_contoller' for CMake config files
+[1.328s] Level 1:colcon.colcon_core.environment:checking '/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/install/my_robot_contoller/lib'
+[1.328s] Level 1:colcon.colcon_core.environment:checking '/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/install/my_robot_contoller/bin'
+[1.329s] Level 1:colcon.colcon_core.environment:checking '/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/install/my_robot_contoller/lib/pkgconfig/my_robot_contoller.pc'
+[1.329s] Level 1:colcon.colcon_core.environment:checking '/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/install/my_robot_contoller/lib/python3.10/site-packages'
+[1.329s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_contoller', 'pythonpath')
+[1.329s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/install/my_robot_contoller/share/my_robot_contoller/hook/pythonpath.ps1'
+[1.329s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/install/my_robot_contoller/share/my_robot_contoller/hook/pythonpath.dsv'
+[1.330s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/install/my_robot_contoller/share/my_robot_contoller/hook/pythonpath.sh'
+[1.330s] Level 1:colcon.colcon_core.environment:checking '/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/install/my_robot_contoller/bin'
+[1.330s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_contoller)
+[1.331s] INFO:colcon.colcon_core.shell:Creating package script '/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/install/my_robot_contoller/share/my_robot_contoller/package.ps1'
+[1.331s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/install/my_robot_contoller/share/my_robot_contoller/package.dsv'
+[1.331s] INFO:colcon.colcon_core.shell:Creating package script '/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/install/my_robot_contoller/share/my_robot_contoller/package.sh'
+[1.331s] INFO:colcon.colcon_core.shell:Creating package script '/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/install/my_robot_contoller/share/my_robot_contoller/package.bash'
+[1.332s] INFO:colcon.colcon_core.shell:Creating package script '/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/install/my_robot_contoller/share/my_robot_contoller/package.zsh'
+[1.332s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/install/my_robot_contoller/share/colcon-core/packages/my_robot_contoller)
+[1.332s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.332s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.333s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.333s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.337s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.337s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.337s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.349s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.350s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/install/local_setup.ps1'
+[1.351s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/install/_local_setup_util_ps1.py'
+[1.352s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/install/setup.ps1'
+[1.355s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/install/local_setup.sh'
+[1.356s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/install/_local_setup_util_sh.py'
+[1.357s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/install/setup.sh'
+[1.360s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/install/local_setup.bash'
+[1.360s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/install/setup.bash'
+[1.362s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/install/local_setup.zsh'
+[1.363s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/install/setup.zsh'

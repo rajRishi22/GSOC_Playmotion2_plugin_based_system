@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-7e1106923eee2c6591cf.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "tiago_arm_trajectory",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "send_trajectory::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-send_trajectory-7552be8e63e07d1e1f3c.json",
+					"name" : "send_trajectory",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tiago_arm_trajectory_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tiago_arm_trajectory_uninstall-dfabd47a3d143cc38f15.json",
+					"name" : "tiago_arm_trajectory_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-ef2c1979c53b1b98bd5c.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/rishiraj/GSOC_Playmotion2_plugin_based_system/build/tiago_arm_trajectory",
+		"source" : "/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/src/tiago_arm_trajectory"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

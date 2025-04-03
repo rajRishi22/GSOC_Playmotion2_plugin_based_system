@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target send_trajectory[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/send_trajectory.dir/src/send_trajectory.cpp.o[0m
+[100%] [32m[1mLinking CXX executable send_trajectory[0m
+[100%] Built target send_trajectory
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/install/tiago_arm_trajectory/lib/tiago_arm_trajectory/send_trajectory
+-- Up-to-date symlink: /home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/install/tiago_arm_trajectory/share/ament_index/resource_index/package_run_dependencies/tiago_arm_trajectory
+-- Up-to-date symlink: /home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/install/tiago_arm_trajectory/share/ament_index/resource_index/parent_prefix_path/tiago_arm_trajectory
+-- Up-to-date symlink: /home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/install/tiago_arm_trajectory/share/tiago_arm_trajectory/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/install/tiago_arm_trajectory/share/tiago_arm_trajectory/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/install/tiago_arm_trajectory/share/tiago_arm_trajectory/environment/path.sh
+-- Up-to-date symlink: /home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/install/tiago_arm_trajectory/share/tiago_arm_trajectory/environment/path.dsv
+-- Up-to-date symlink: /home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/install/tiago_arm_trajectory/share/tiago_arm_trajectory/local_setup.bash
+-- Up-to-date symlink: /home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/install/tiago_arm_trajectory/share/tiago_arm_trajectory/local_setup.sh
+-- Up-to-date symlink: /home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/install/tiago_arm_trajectory/share/tiago_arm_trajectory/local_setup.zsh
+-- Up-to-date symlink: /home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/install/tiago_arm_trajectory/share/tiago_arm_trajectory/local_setup.dsv
+-- Symlinking: /home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/install/tiago_arm_trajectory/share/tiago_arm_trajectory/package.dsv
+-- Up-to-date symlink: /home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/install/tiago_arm_trajectory/share/ament_index/resource_index/packages/tiago_arm_trajectory
+-- Up-to-date symlink: /home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/install/tiago_arm_trajectory/share/tiago_arm_trajectory/cmake/tiago_arm_trajectoryConfig.cmake
+-- Up-to-date symlink: /home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/install/tiago_arm_trajectory/share/tiago_arm_trajectory/cmake/tiago_arm_trajectoryConfig-version.cmake
+-- Up-to-date symlink: /home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/install/tiago_arm_trajectory/share/tiago_arm_trajectory/package.xml
