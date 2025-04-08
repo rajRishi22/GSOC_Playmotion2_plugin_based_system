@@ -1,0 +1,5 @@
+source;share/string_plugin_system/local_setup.bash
+source;share/string_plugin_system/local_setup.dsv
+source;share/string_plugin_system/local_setup.ps1
+source;share/string_plugin_system/local_setup.sh
+source;share/string_plugin_system/local_setup.zsh

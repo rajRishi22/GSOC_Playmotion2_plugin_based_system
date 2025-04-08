@@ -1,134 +1,99 @@
 ### Create a C++ ROS 2 node that sends some trajectory for a TIAGo arm on simulation
 
-1. Source ROS 2 and Set Up Workspace
+1. Set Up Workspace and clone tiago_simulation:
 ```
-source /opt/ros/humble/setup.bash
-mkdir -p ~/ros2_ws/src
-cd ~/ros2_ws
+mkdir -p ~/tiago_ws/src
+cd ~/tiago_ws/src
+git clone https://github.com/pal-robotics/tiago_simulation.git
+cd ..
+rosdep install --from-paths src --ignore-src -r -y
 colcon build
 source install/setup.bash
 ```
-2. Install TIAGo Simulation
- 2.1 Install TIAGo Simulation Dependencies
- ```
-sudo apt update
-sudo apt install -y ros-humble-tiago-simulation ros-humble-gazebo-ros-pkgs ros-humble-ros2-control ros-humble-trajectory-msgs
+2. Launch the simulation
+```
+ros2 launch tiago_gazebo tiago_gazebo.launch.py is_public_sim:=True
+```
+ 3. Create Your C++ Package
+```
+cd ~/tiago_ws/src
+ros2 pkg create example_trajectory_publisher --build-type ament_cmake --dependencies rclcpp trajectory_msgs
 
- ```
- 2.2 Launch TIAGo Simulation
- ```
- ros2 launch tiago_gazebo tiago_gazebo.launch.py is_public_sim:='True'
+```
+after that move to example_trajectory_publisher:
+```
+cd example_trajectory_publisher
+```
 
- ```
-3. Create a ROS 2 Package for the TIAGo Arm Trajectory Node
-3.1 Navigate to the src folder of your workspace and create a package named tiago_arm_trajectory with dependencies on rclcpp (for ROS 2) and trajectory_msgs (for sending joint trajectories).
-```
-cd ~/ros2_ws/src
-ros2 pkg create tiago_arm_trajectory --build-type ament_cmake --dependencies rclcpp trajectory_msgs
-```
-4. Write the C++ Node
-Navigate to the package folder:
-`cd ~/ros2_ws/src/tiago_arm_trajectory`
-Create a src directory and add a C++ source file:
-```
-mkdir src
-nano src/send_trajectory.cpp
-```
-4.1 Add the Following Code in send_trajectory.cpp
+Add a node src/publish_trajectory.cpp inside example_trajectory/src:
 ```
 #include <rclcpp/rclcpp.hpp>
 #include <trajectory_msgs/msg/joint_trajectory.hpp>
 #include <trajectory_msgs/msg/joint_trajectory_point.hpp>
 
-class TIAGoArmTrajectory : public rclcpp::Node {
+class TrajectoryPublisher : public rclcpp::Node {
 public:
-    TIAGoArmTrajectory() : Node("tiago_arm_trajectory_publisher") {
-        publisher_ = this->create_publisher<trajectory_msgs::msg::JointTrajectory>(
-            "/position_joint_trajectory_controller/joint_trajectory", 10);
+  TrajectoryPublisher() : Node("trajectory_publisher") {
+    publisher_ = this->create_publisher<trajectory_msgs::msg::JointTrajectory>(
+        "/arm_controller/commands", 10);
 
-        timer_ = this->create_wall_timer(
-            std::chrono::seconds(2),
-            std::bind(&TIAGoArmTrajectory::publish_trajectory, this));
-    }
+    auto timer_callback = [this]() -> void {
+      trajectory_msgs::msg::JointTrajectory traj;
+      traj.joint_names = {"arm_1_joint", "arm_2_joint", "arm_3_joint", 
+                          "arm_4_joint", "arm_5_joint", "arm_6_joint", 
+                          "arm_7_joint"};
+
+      trajectory_msgs::msg::JointTrajectoryPoint point;
+      point.positions = {0.0, -0.5, 0.0, -1.0, 0.0, 1.0, 0.0};
+      point.time_from_start = rclcpp::Duration::from_seconds(3.0);
+
+      traj.points.push_back(point);
+      publisher_->publish(traj);
+      RCLCPP_INFO(this->get_logger(), "Trajectory published.");
+    };
+
+    timer_ = this->create_wall_timer(std::chrono::seconds(5), timer_callback);
+  }
 
 private:
-    void publish_trajectory() {
-        auto message = trajectory_msgs::msg::JointTrajectory();
-
-        // Define joint names for the TIAGo arm
-        message.joint_names = {
-            "arm_1_joint", "arm_2_joint", "arm_3_joint",
-            "arm_4_joint", "arm_5_joint", "arm_6_joint", "arm_7_joint"};
-
-        // Define a trajectory point
-        trajectory_msgs::msg::JointTrajectoryPoint point;
-        point.positions = {0.2, -0.5, 0.3, 1.2, -1.0, 0.5, 0.8};  // Example joint values
-        point.time_from_start = rclcpp::Duration::from_seconds(2.0);
-
-        message.points.push_back(point);
-
-        RCLCPP_INFO(this->get_logger(), "Publishing TIAGo arm trajectory...");
-        publisher_->publish(message);
-    }
-
-    rclcpp::Publisher<trajectory_msgs::msg::JointTrajectory>::SharedPtr publisher_;
-    rclcpp::TimerBase::SharedPtr timer_;
+  rclcpp::Publisher<trajectory_msgs::msg::JointTrajectory>::SharedPtr publisher_;
+  rclcpp::TimerBase::SharedPtr timer_;
 };
 
 int main(int argc, char **argv) {
-    rclcpp::init(argc, argv);
-    rclcpp::spin(std::make_shared<TIAGoArmTrajectory>());
-    rclcpp::shutdown();
-    return 0;
+  rclcpp::init(argc, argv);
+  rclcpp::spin(std::make_shared<TrajectoryPublisher>());
+  rclcpp::shutdown();
+  return 0;
 }
 ```
-5. Modify CMakeLists.txt
-Open CMakeLists.txt:
-`nano CMakeLists.txt`
-Replace its contents with the following:
+ 4. Update CMakeLists.txt
+Add this to the bottom of CMakeLists.txt:
 ```
-cmake_minimum_required(VERSION 3.5)
-project(tiago_arm_trajectory)
-
-# Dependencies
-find_package(ament_cmake REQUIRED)
-find_package(rclcpp REQUIRED)
-find_package(trajectory_msgs REQUIRED)
-
-# Add the executable
-add_executable(send_trajectory src/send_trajectory.cpp)
-ament_target_dependencies(send_trajectory rclcpp trajectory_msgs)
-
-# Install
-install(TARGETS send_trajectory
-    DESTINATION lib/${PROJECT_NAME})
-
-ament_package()
+add_executable(trajectory_publisher src/publish_trajectory.cpp)
+ament_target_dependencies(trajectory_publisher rclcpp trajectory_msgs)
+install(TARGETS
+  trajectory_publisher
+  DESTINATION lib/example_trajectory_publisher)
 ```
-6: Build the Package
+5. Build the package
 ```
-cd ~/ros2_ws
-colcon build --packages-select tiago_arm_trajectory
-```
-Source the workspace:
-```
+cd ~/tiago_ws
+colcon build
 source install/setup.bash
 ```
-7. Run the Node
-```
-ros2 launch tiago_gazebo tiago_gazebo.launch.py is_public_sim:='True'
-```
-Then, run your trajectory node:
-```
-ros2 run tiago_arm_trajectory send_trajectory
 
+ 6. Run your node
+ Make sure simulation is running, then:
 ```
-
-8. Verify Trajectory Execution
-Open Gazebo and check if the TIAGo arm moves.
-
-Use ROS 2 topic echo to see if the trajectory message is published:
+ros2 run example_trajectory_publisher trajectory_publisher
 ```
-ros2 topic echo /position_joint_trajectory_controller/joint_trajectory
+If you want to check join names or controller :
+To check available controllers:
 ```
-
+ros2 control list_controllers
+```
+To verify joint names:
+```
+ros2 topic echo /joint_states
+```

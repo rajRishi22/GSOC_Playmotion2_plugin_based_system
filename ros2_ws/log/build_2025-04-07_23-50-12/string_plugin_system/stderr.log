@@ -1,0 +1,20 @@
+[01m[K/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/src/string_plugin_system/src/plugins/reverse_plugin.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kstring_plugin_system/string_plugin_base.hpp: No such file or directory
+    1 | #include [01;31m[K"string_plugin_system/string_plugin_base.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/reverse_plugin.dir/build.make:76: CMakeFiles/reverse_plugin.dir/src/plugins/reverse_plugin.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/reverse_plugin.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[01m[K/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/src/string_plugin_system/src/plugins/count_plugin.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kstring_plugin_system/string_plugin_base.hpp: No such file or directory
+    1 | #include [01;31m[K"string_plugin_system/string_plugin_base.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/count_plugin.dir/build.make:76: CMakeFiles/count_plugin.dir/src/plugins/count_plugin.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/count_plugin.dir/all] Error 2
+[01m[K/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/src/string_plugin_system/src/main_node.cpp:3:10:[m[K [01;31m[Kfatal error: [m[Kstring_plugin_system/string_plugin_base.hpp: No such file or directory
+    3 | #include [01;31m[K"string_plugin_system/string_plugin_base.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/main_node.dir/build.make:76: CMakeFiles/main_node.dir/src/main_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/main_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

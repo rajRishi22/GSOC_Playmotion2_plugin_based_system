@@ -4,3 +4,6 @@ source;share/rqt_chat/hook/pythonpath.sh
 source;share/rqt_chat/hook/ament_prefix_path.ps1
 source;share/rqt_chat/hook/ament_prefix_path.dsv
 source;share/rqt_chat/hook/ament_prefix_path.sh
+source;../../build/rqt_chat/share/rqt_chat/hook/pythonpath_develop.ps1
+source;../../build/rqt_chat/share/rqt_chat/hook/pythonpath_develop.dsv
+source;../../build/rqt_chat/share/rqt_chat/hook/pythonpath_develop.sh

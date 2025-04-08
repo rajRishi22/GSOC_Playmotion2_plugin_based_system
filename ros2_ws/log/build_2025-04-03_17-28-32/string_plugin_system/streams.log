@@ -1,0 +1,61 @@
+[0.010s] Invoking command in '/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/build/string_plugin_system': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rishiraj/ros2_ws/install/rqt_chat:/home/rishiraj/ros2_ws/install/my_robot_contoller:/home/rishiraj/tiago_public_ws/install/launch_pal:/opt/ros/humble /usr/bin/cmake /home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/src/string_plugin_system -DCMAKE_INSTALL_PREFIX=/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/install/string_plugin_system
+[0.062s] -- The C compiler identification is GNU 11.4.0
+[0.105s] -- The CXX compiler identification is GNU 11.4.0
+[0.111s] -- Detecting C compiler ABI info
+[0.172s] -- Detecting C compiler ABI info - done
+[0.177s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.177s] -- Detecting C compile features
+[0.178s] -- Detecting C compile features - done
+[0.180s] -- Detecting CXX compiler ABI info
+[0.248s] -- Detecting CXX compiler ABI info - done
+[0.254s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.254s] -- Detecting CXX compile features
+[0.255s] -- Detecting CXX compile features - done
+[0.259s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.405s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.524s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.585s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.593s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.605s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.627s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.660s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.739s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.746s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.835s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.861s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.900s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.916s] -- Looking for pthread.h
+[0.977s] -- Looking for pthread.h - found
+[0.977s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.040s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.041s] -- Found Threads: TRUE  
+[1.094s] -- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)
+[1.189s] -- Configuring done
+[1.200s] -- Generating done
+[1.205s] -- Build files have been written to: /home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/build/string_plugin_system
+[1.219s] Invoked command in '/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/build/string_plugin_system' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rishiraj/ros2_ws/install/rqt_chat:/home/rishiraj/ros2_ws/install/my_robot_contoller:/home/rishiraj/tiago_public_ws/install/launch_pal:/opt/ros/humble /usr/bin/cmake /home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/src/string_plugin_system -DCMAKE_INSTALL_PREFIX=/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/install/string_plugin_system
+[1.219s] Invoking command in '/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/build/string_plugin_system': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rishiraj/ros2_ws/install/rqt_chat:/home/rishiraj/ros2_ws/install/my_robot_contoller:/home/rishiraj/tiago_public_ws/install/launch_pal:/opt/ros/humble /usr/bin/cmake --build /home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/build/string_plugin_system -- -j8 -l8
+[1.259s] [ 50%] [32mBuilding CXX object CMakeFiles/main_node.dir/src/main_node.cpp.o[0m
+[1.259s] [ 50%] [32mBuilding CXX object CMakeFiles/reverse_plugin.dir/src/plugins/reverse_plugin.cpp.o[0m
+[1.259s] [ 50%] [32mBuilding CXX object CMakeFiles/count_plugin.dir/src/plugins/count_plugin.cpp.o[0m
+[1.266s] [01m[K/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/src/string_plugin_system/src/plugins/count_plugin.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kstring_plugin_system/string_plugin_base.hpp: No such file or directory
+[1.266s]     1 | #include [01;31m[K"string_plugin_system/string_plugin_base.hpp"[m[K
+[1.266s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.266s] compilation terminated.
+[1.266s] [01m[K/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/src/string_plugin_system/src/plugins/reverse_plugin.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kstring_plugin_system/string_plugin_base.hpp: No such file or directory
+[1.266s]     1 | #include [01;31m[K"string_plugin_system/string_plugin_base.hpp"[m[K
+[1.266s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.266s] compilation terminated.
+[1.266s] gmake[2]: *** [CMakeFiles/reverse_plugin.dir/build.make:76: CMakeFiles/reverse_plugin.dir/src/plugins/reverse_plugin.cpp.o] Error 1
+[1.266s] gmake[2]: *** [CMakeFiles/count_plugin.dir/build.make:76: CMakeFiles/count_plugin.dir/src/plugins/count_plugin.cpp.o] Error 1
+[1.266s] gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/reverse_plugin.dir/all] Error 2
+[1.267s] gmake[1]: *** Waiting for unfinished jobs....
+[1.267s] gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/count_plugin.dir/all] Error 2
+[1.434s] [01m[K/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/src/string_plugin_system/src/main_node.cpp:3:10:[m[K [01;31m[Kfatal error: [m[Kstring_plugin_system/string_plugin_base.hpp: No such file or directory
+[1.435s]     3 | #include [01;31m[K"string_plugin_system/string_plugin_base.hpp"[m[K
+[1.435s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.435s] compilation terminated.
+[1.447s] gmake[2]: *** [CMakeFiles/main_node.dir/build.make:76: CMakeFiles/main_node.dir/src/main_node.cpp.o] Error 1
+[1.447s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/main_node.dir/all] Error 2
+[1.447s] gmake: *** [Makefile:146: all] Error 2
+[1.449s] Invoked command in '/home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/build/string_plugin_system' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rishiraj/ros2_ws/install/rqt_chat:/home/rishiraj/ros2_ws/install/my_robot_contoller:/home/rishiraj/tiago_public_ws/install/launch_pal:/opt/ros/humble /usr/bin/cmake --build /home/rishiraj/GSOC_Playmotion2_plugin_based_system/ros2_ws/build/string_plugin_system -- -j8 -l8
